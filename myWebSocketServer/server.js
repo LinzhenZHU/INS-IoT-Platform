@@ -40,7 +40,7 @@ wss.on('connection', (ws) => {
   readCSVAndSend(ws); // 初始发送 / Send data initially
 
   // 定时发送更新的数据 / Periodically send updated data
-  const intervalId = setInterval(() => readCSVAndSend(ws), 500); // 修正为每1秒更新一次 / Corrected to update every second
+  const intervalId = setInterval(() => readCSVAndSend(ws), 1000); // 每1秒更新一次 / update every second
 
   // 当客户端关闭连接时 / When the client closes the connection
   ws.on('close', () => {
