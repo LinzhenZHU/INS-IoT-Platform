@@ -1,17 +1,3 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%> @file settings.m
-%>
-%> @brief Functions for setting all the parameters in the zero-velocity 
-%> aided inertial navigation system framework, as well as loading the IMU
-%> data.
-%>
-%> @authors Isaac Skog, John-Olof Nilsson
-%> @copyright Copyright (c) 2011 OpenShoe, ISC License (open source)
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
 %% MAIN FUNCTION
 
 
