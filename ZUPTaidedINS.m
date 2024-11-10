@@ -1,21 +1,3 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%> @file ZUPTaidedINS.m
-%>
-%> @brief This file contains all the functions needed to implement a zero-
-%> velocity aided inertial navigation system. 
-%>
-%> @details This file contains all the functions needed to implement a 
-%> zero-velocity aided inertial navigation system, given a set of IMU data
-%> and a vector that indicates when the system has zero-velocity. 
-%>
-%> @authors Isaac Skog, John-Olof Nilsson
-%> @copyright Copyright (c) 2011 OpenShoe, ISC License (open source)
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-
 %% MAINFUNCTION
 
 
