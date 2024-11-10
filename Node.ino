@@ -4,10 +4,10 @@
  
 char *n = "C";
 char otpt[40];
-const char *ssid = "iPhone"; 
-const char *password = "zlz328216";
-const IPAddress serverIP(43,249,192,204); 
-uint16_t serverPort = 65083;
+const char *ssid = ""; 
+const char *password = "";
+const IPAddress serverIP(,,,); 
+uint16_t serverPort = ;
 unsigned long currentMillis;
 unsigned long previousMillis;
 
@@ -37,9 +37,9 @@ void setup() {
     
   delay(5000);
 
-    if (!mpu.setup(0x68)) {  // change to your own address
+    if (!mpu.setup(0x68)) {  // change to the actual MPU address
         while (1) {
-            Serial.println("MPU connection failed. Please check your connection with `connection_check` example.");
+            Serial.println("MPU connection failed.");
             delay(5000);
         }
     }
