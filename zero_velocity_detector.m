@@ -1,30 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-%> @file zero_velocity_detector.m
-%>
-%> @brief Functions for implementing different zero-velocity detection 
-%> algorithms. 
-%>
-%> @details Functions for implementing different zero-velocity detection 
-%> algorithms, as well as a wrapper function for easy to use purpose. The
-%> settings used by the wrapper function "zero_velocity_detector()" is  
-%> specified in the file \a setting.m. Details about the detectors can be 
-%> found in papers
-%> 
-%> \li <A href="http://dx.doi.org/10.1109/TBME.2010.2060723">Zero-Velocity Detection -- An Algorithm Evaluation</A> 
-%> \li <A href="http://dx.doi.org/10.1109/IPIN.2010.5646936">Evaluation of Zero-Velocity Detectors for Foot-Mounted Inertial Navigation Systems</A>
-%>   
-%>
-%> @authors Isaac Skog, John-Olof Nilsson
-%> @copyright Copyright (c) 2011 OpenShoe, ISC License (open source)
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
 %  funtion [zupt T] = zero_velocity_detector(u) 
 %
 %>
