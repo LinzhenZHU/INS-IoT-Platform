@@ -14,7 +14,8 @@ Based on React Framwork, can be used cross-platform. The visulization of the tra
 
 ### Server:
 1. Used to collect the data from the Sensor nodes via TCP/IP through Server.py
-2. Run the main.m matlab code to calculate the coordinates of the localization, and it will be stored in the CSV (one file/person)
+2. If you have more nodes, mo
+3. Run the main.m matlab code to calculate the coordinates of the localization, and it will be stored in the CSV (one file/person)
 
 ### MyWebSocket Server:
 1. Used to update the coordinates from the CSV to the visulization application in realtime.
